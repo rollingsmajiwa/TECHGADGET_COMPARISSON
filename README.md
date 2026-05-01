@@ -6,7 +6,7 @@ The **TechGadget Comparison** is a modern, responsive web application designed f
 
 ### 2. Business Rationale
 
-In a competitive content creation market, clarity and professionalism are key. This project addresses two primary business needs.
+In a competitive market, clarity and professionalism are key. This project addresses two primary business needs.
 
 - Brand Authority: A clean semantic design establishes trust and positions the platform as the premium provider.
 
