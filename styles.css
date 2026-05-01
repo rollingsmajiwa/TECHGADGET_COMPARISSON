@@ -1,12 +1,12 @@
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 .container {
     max-width: 80rem;
     padding: 2rem;
+    background-color: rgb(226, 226, 214);
 }
 #hero {
     height: 30vh;
@@ -17,25 +17,49 @@ body {
     
     text-align: center;
     margin-bottom: 2em;
+    
 
 }
 #product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    background-color: rgb(226, 226, 214);
     
+}
+
+article:nth-child(even) {
+    background-color: rgb(220, 185, 126);
+}
+
+button {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+button:hover {
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.price-tag + div {
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(79, 57, 15);
 }
 article:first-of-type {
     padding: 2rem;
-    border: 1px solid gold;
+    border: 2px solid gold;
     border-radius: 8px;
 
 }
 
 article {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 2rem;
     border-radius: 8px;
+    
     
 }
 .price-tag > span {
@@ -49,7 +73,7 @@ header {
     text-align: center;
 
     padding: 4px;
-    background-color: gray;
+    background-color: gold;
 }
 nav ul li {
     list-style-type: none;
@@ -61,15 +85,19 @@ nav ul li a {
     color: white;
 }
 article:hover {
-    background-color: grey;
+    transform: scale(1.08);
 }
 
     
 
 #features {
-    background-color: #fff;
+    
     padding: 20px;
     border-radius: 8px;
+}
+
+#features li {
+    list-style-type: none;
 }
 footer {
     text-align: center;
@@ -78,6 +106,6 @@ footer {
 }
 footer a {
     text-decoration: none;
-    color: #3498db;
+    color:  #3498db;
     
 }
