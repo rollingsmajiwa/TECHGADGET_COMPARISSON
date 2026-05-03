@@ -28,7 +28,7 @@
     
 }
 
-article:nth-child(even) {
+article:nth-child(1) {
     background-color: rgb(220, 185, 126);
 }
 
